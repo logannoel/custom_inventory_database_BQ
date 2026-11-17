@@ -1,3 +1,2 @@
-Synthetic Pet & Livestock inventory data. Linked with a primary key of vendor_id that are 'NOT ENFORCED' so they are validated with queries. 
 # custom_inventory_database_BQ
-Relational inventory database. 
+Synthetic pet and livestock inventory data in BigQuery. The dim_products and dim_vendors tables are linked by a foreign key (primary_vendor_id) that points to the primary key (vendor_id). BigQuery declares these keys as NOT ENFORCED, so integrity is validated with SQL queries that check for duplicate IDs and products with no matching vendor
