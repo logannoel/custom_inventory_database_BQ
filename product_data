@@ -1,0 +1,25 @@
+INSERT INTO courseraproject1-498420.pet_livestock_tracking.dim_products
+  (product_id, SKU, product_name, location, sub_category, species,
+  packaging_type, unit_weight, reorder_point, safety_stock_qty,
+  target_stock_qty, primary_vendor_id)
+VALUES
+  ('PROD-LVS-001', 'SKU-EQ-1001', 'Mature Horse Feed', 
+  'Livestock', 'Equine', 'Horse', '50lb', 50.00, 2, 4, 6,
+  'VEND-OO1' ),
+  ('PROD-LVS-002', 'SKU-EQ-1002', 'Esteem Complete Pellet',
+  'Livestock', 'Equine', 'Horse', '50lb', 50.00, 2, 4, 6, 
+  'VEND-001'),
+  ('PROD-LVS-003', 'SKU-SW-1001', '18% Swine Grower', 
+  'Livestock', 'Swine', 'Pig', '50lb', 50.00, 4, 8, 12,
+  'VEND-001'),
+  ('PROD-LVS-004', 'SKU-PL-1001', '16% Non-GMO Layer Pellet', 
+  'Livestock', 'Poultry', 'Chicken', '40lb', 40.00, 5, 5, 10,
+  'VEND-001'),
+  ('PROD-PET-001', 'SKU-DG-1001', 'TOW High Prairie Adult',
+  'Pet', 'Canine', 'Dog', '28lb', 28.00, 4, 4, 8, 'VEND-002'),
+  ('PROD-PET-002', 'SKU-DG-1002', 'TOW Pacific Stream Adult',
+  'Pet', 'Canine', 'Dog', '28lb', 28.00, 4, 4, 8, 'VEND-002'),
+  ('PROD-PET-003', 'SKU-CT-1001', 'TOW Lowland Creek',
+  'Pet', 'Feline', 'Cat', '18lb', 18.00, 4, 4, 8, 'VEND-002'),
+  ('PROD-PET-004', 'SKU-DG-10015', 'TOW Wetlands Can Dog Food',
+  'Pet', 'Canine', 'Dog', '12oz can', .75, 6, 6, 12, 'VEND-002');
