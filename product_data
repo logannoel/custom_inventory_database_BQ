@@ -5,7 +5,7 @@ INSERT INTO courseraproject1-498420.pet_livestock_tracking.dim_products
 VALUES
   ('PROD-LVS-001', 'SKU-EQ-1001', 'Mature Horse Feed', 
   'Livestock', 'Equine', 'Horse', '50lb', 50.00, 2, 4, 6,
-  'VEND-OO1' ),
+  'VEND-001' ),
   ('PROD-LVS-002', 'SKU-EQ-1002', 'Esteem Complete Pellet',
   'Livestock', 'Equine', 'Horse', '50lb', 50.00, 2, 4, 6, 
   'VEND-001'),
